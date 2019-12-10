@@ -1,4 +1,4 @@
-var WinHttpReq = new ActiveXObject("WinHttps.WinHttpsRequest.5.1");
+var WinHttpsReq = new ActiveXObject("WinHttps.WinHttpsRequest.5.1");
 WinHttpsReq.Open("GET", WScript.Arguments(0), /*async=*/false);
 WinHttpsReq.Send();
 WScript.Echo(WinHttpsReq.ResponseText);
